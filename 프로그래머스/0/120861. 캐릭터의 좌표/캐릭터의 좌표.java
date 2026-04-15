@@ -1,6 +1,6 @@
 class Solution {
     public int[] solution(String[] keyinput, int[] board) {
-        int[] answer = new int[2];
+        int[] answer = {0,0};
         board[0] = board[0]/2;
         board[1] = board[1]/2;
         for(int i = 0; i<keyinput.length; i++){
