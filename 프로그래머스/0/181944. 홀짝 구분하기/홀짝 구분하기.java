@@ -5,7 +5,7 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        String a = (n%2==0) ? " is even" : " is odd";
-        System.out.println((n)+a);
+        if(n%2==0) System.out.print(n+" is even");
+        else System.out.print(n+" is odd");
     }
 }
